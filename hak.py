@@ -40,17 +40,31 @@ msg = "pls subscribe"
 #print(len(msg)) #the len funtions is used to calculate the number of charaters or the length of the string
  
   
-print(msg[12]) #this will print the last character which is the "e" because index is always the length minus 1
+#print(msg[12]) #this will print the last character which is the "e" because index is always the length minus 1
 
 "How to convert a number to a string"
 
 msg2 = "Please subscribe"
 
-print("Your message was " + str(len(msg2)) + " characters long")
+#print("Your message was " + str(len(msg2)) + " characters long")
 
 hi = "I like reserved guys"
 
-print("My confessions above has " + str(len(hi)) + " characters")
+#print("My confessions above has " + str(len(hi)) + " characters")
 
-print("My message has", (len(hi)), "characters") #this way works but will not always be available working with other funtions
+#print("My message has", (len(hi)), "characters") #this way works but will not always be available working with other funtions
 
+#Nested Funtions
+import math
+age = 15
+
+#This whole process is what was shortherned below.
+age_str = str(age)
+id_age = id(age_str)
+other = math.floor(2.6)
+added = id_age + other
+added_str = str(added)
+length = len(added_str)
+print(length)
+
+#print(len(str(id(str(age)) + math.floor(2.6)))) SO THIS IS THE WHOLE IDA OF NESTED FUNTIONS
