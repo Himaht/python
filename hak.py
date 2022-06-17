@@ -67,4 +67,4 @@ added_str = str(added)
 length = len(added_str)
 print(length)
 
-#print(len(str(id(str(age)) + math.floor(2.6)))) SO THIS IS THE WHOLE IDA OF NESTED FUNTIONS
+#print(len(str(id(str(age)) + math.floor(2.6)))) SO THIS IS THE WHOLE IDEA OF NESTED FUNTIONS
