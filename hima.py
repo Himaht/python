@@ -23,6 +23,7 @@ ki = 'he then said "hey"' #can insert a quote this way
 yus = "he actually said \"hey\"" # can also insert a quote this way
 #print(yus)
 
+## CONCATENTATION
 msg = "My name is Himaht,"
 msg2 = "I am a Pisces"
 #print(msg, msg2)  concanetion --putting together two strings to create one argument
